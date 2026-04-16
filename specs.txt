@@ -1,7 +1,0 @@
-Full Name
-Matric
-Dept
-Faculty
-Place of IT (Alihame/Town)
-Registration Date
-Password
