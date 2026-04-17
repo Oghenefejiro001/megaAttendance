@@ -4,19 +4,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
-::-webkit-scrollbar {
-  display: none;
 }
 
 .main {
   width: 100vw;
   height: 100vh;
   display: flex;
-  background-color: var(--secondary-color);
+  background-color: white;
   align-items: center;
   justify-content: center;
 }
@@ -60,7 +54,6 @@
 .info input {
   padding: 8px;
   border: 1px solid grey;
-  border-radius: 20px;
   font-size: 14px;
   background-color: white;
   color: #333;
@@ -69,7 +62,6 @@
 .info select {
   padding: 12px;
   border: 1px solid grey;
-  border-radius: 8px;
   font-size: 14px;
   background-color: white;
   color: #333;
