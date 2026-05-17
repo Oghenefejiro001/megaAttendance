@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#nigimg {
+    width: 400px
+}
+
+#resultField {
+    height: 200px;
+    width: 500px;
+    background-color: cyan;
+    border-radius: 20px;
+    padding: 5px
+}
