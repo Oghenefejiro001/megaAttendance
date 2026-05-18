@@ -9,80 +9,112 @@
   color: var(--primary-color);
 }
 
-
 .container {
-  background-color: white;
+  background-color: whitesmoke;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header h2 {
-  color: var(--primary-color);
-}
-
-.header p {
-  font-size: 12px;
-  color: var(--primary-color);
-}
-
-.edit-btn {
-  background: var(--primary-color);
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.edit-btn i {
-  color: white;
-  font-size: 14px;
-}
-
-.profile-box {
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.cover {
-  height: 100px;
+.bg-pri {
   background-color: var(--primary-color);
 }
 
-.profile-info {
-  position: relative;
+.m-name {
+  font-size: 1.875rem;
+  color: white;
+}
+
+.p-img {
+  width: 100%;
+  max-width: 125px;
+  height: auto;
+}
+
+/* i made the image and text responsive for small devices  */
+@media screen and (max-width: 575px) {
+  .p-img {
+    max-width: 70px;
+  }
+
+  .m-name {
+    font-size: 1.5rem;
+  }
+}
+
+/* i made the  responsive for mobile devices */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .p-img {
+    max-width: 85px;
+  }
+}
+
+<<<<<<< HEAD
+/* i made the image responsive for tablet and larger devices */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .p-img {
+    max-width: 110px;
+  }
+}
+
+.footer-d {
+  display: flex;
+  padding: 20px;
+  background-color: var(--primary-color);
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.img-f {
+  height: 80px;
+}
+
+.footer-d1 {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+.footer-d1 a {
+  margin-right: 20px;
+  color: white
+}
+
+.footer-d2 {
+  height: 30px;
+  color: white
+}
+
+.footer-d2 p {
+  color: white
+}
+
+.footer-d2 span {
+  color: blue;
+  margin-right: 5px
+}
+
+.footer-last {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 5px 5px 5px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-space {
+  width: 200px;
   height: 100px;
 }
 
-.profile-pic {
-  position: absolute;
-  top: -90px;
-  font-size: 24px;
-  border-radius: 2px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.profile-pic img {
-  width: 130px;
-  border-radius: 20%;
-}
-
-.profile-div {
-  position: absolute;
-  height: 150px;
-  left: 200px;
-  top: -80px;
-  line-height: 80px;
-  background-color: transparent;
-}
-
+.footer-space p {
+  color: white;
+  margin-bottom: 20px;
+  ;
+=======
 .profile-div h3 {
   font-size: 30px;
   color: white
@@ -125,4 +157,5 @@
 .label {
   font-size: 12px;
   color: gray;
+>>>>>>> 161b297e53327b41d9b64f3d61da8adfd4788fb3
 }
