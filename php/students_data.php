@@ -49,9 +49,28 @@ $datas = [
         "name" => "Okonta Miracle John",
         "department" => "Software Engineering",    
     ],
+    
+ [
+        "matric_no" => "CMP2307604",
+        "name" => "Otiti Chigoziem",
+     [
+        "matric_no" => "CMP2307462",
+        "name" => "Uwaje Peter Onyekachukwu",
+        "department" => "Computer Science",    
+    ],
 
+    [
+        "matric_no" => "CMP2307621",
+        "name" => "Anthony Ruth Chigozie",
+        "department" => "Software Engineering",    
+    ],
+    [
+        "matric_no" => "CMP2307600",
+        "name" => "Iyedoh Unity Oghenerukevwe",
+        "department" => "Software Engineering",    
+    ],
     //  add your arrays here
 ];
 
 
-?>  
+?>
