@@ -1,17 +1,24 @@
 <?php
 include 'students_data.php';
 
-$user = $_POST['username'];
-$pass = $_POST['password'];
+// Check if the form was actually submitted via POST
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    $user = $_POST['username'] ?? '';
+    $pass = $_POST['password'] ?? '';
 
-$isAuthenticated = false;
-
-foreach ($datas as $student) {
-    if ($student['username'] === $user && $student['password'] === $pass) {
-    echo "Login successful! Welcome, " . $student['name'] . ". <a href='students_list.php'>Go to dashboard</a>";
-        exit;
+    foreach ($datas as $student) {
+        // Ensure the student record actually contains login credentials before checking them
+        if (isset($student['username'], $student['password'])) {
+            if ($student['username'] === $user && $student['password'] === $pass) {
+                header("Location: ../students_list.php");
+                            exit;
+            }
+        }
     }
-}
 
-    echo "Invalid username or password. <a href='login.php'>Try again</a>";
+    echo "Invalid username or password. <a href='../login.html'>Try again</a>";
+} else {
+    header("Location: ../login.html");
+    exit;
+}
 ?>
