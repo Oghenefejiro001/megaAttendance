@@ -97,15 +97,18 @@ $datas = [
          "username" => "Iyedoh",
         "password" => "Iyedoh123",  
     ],
-        "department" => "Software Engineering",    
-    ],
-
-     [
+[ 
         "matric_no" => "CMP2101420",
-        "name" => "Chukwuekwu Daniel",
-        "department" => "Cyber Security",    
+        "name" => "Chukwuekwu Daniel Emeke",
+        "department" => "Cyber Security",  
+         "faculty" => "Computing",
+        "email" => "emekedaniel169@gmail.com",
+        "place_of_it" => "Alihame",
+         "username" => "daniel",
+        "password" => "daniel223",  
     ],
 
+    
     //  add your arrays here
 ];
 
