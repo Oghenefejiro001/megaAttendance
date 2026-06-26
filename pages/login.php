@@ -28,10 +28,10 @@ $types = [
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://localhost:5500/login.html">
   <meta property="og:image" content="/images/preview.png">
-  <link rel="stylesheet" href="/bootstrap/bootstrap.css">
-  <link rel="stylesheet" href="css/login.css">
-  <link rel="stylesheet" href="css/config.css">
-  <link rel="stylesheet" href="/fontawesome/css/all.css">
+  <link rel="stylesheet" href="../assets/bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="../assets/css/login.css">
+  <link rel="stylesheet" href="../assets/css/config.css">
+  <link rel="stylesheet" href="../fontawesome/css/all.css">
 </head>
 
 <body class="p-0">
